@@ -1,0 +1,57 @@
+/* @font-face {
+    font-family: 'SpartanMB';
+    src: url('../webfonts/SpartanMB/SpartanMB-Thin.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'SpartanMB';
+    src: url('../webfonts/SpartanMB/SpartanMB-Light.otf');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SpartanMB';
+    src: url('../webfonts/SpartanMB/SpartanMB-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SpartanMB';
+    src: url('../webfonts/SpartanMB/SpartanMB-SemiBold.otf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SpartanMB';
+    src: url('../webfonts/SpartanMB/SpartanMB-Bold.otf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SpartanMB';
+    src: url('../webfonts/SpartanMB/SpartanMB-Extra-Bold.otf');
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'SpartanMB';
+    src: url('../webfonts/SpartanMB/SpartanMB-Black.otf');
+    font-style: normal;
+    font-weight: 900;
+}
+ */
+html {
+  font-size: 1rem;
+}
+
+p{
+    margin: 0 !important;
+    padding: 0 !important;
+}

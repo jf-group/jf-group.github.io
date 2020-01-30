@@ -4,20 +4,37 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/> -->
+    <!-- Bootstrap 4.4.1 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome 5.12.0 -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Title -->
     <title>JF Group</title>
   </head>
   <body>
     <h1>JF Group</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, expedita distinctio. Autem repellendus tempore maiores ratione illum quasi ad iste.</p>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <!-- jQuery v3.4.1 -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap 4.4.1 - JavaScript & Popper.js included-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script>
+    $(document).ready(function() {
+      $(".close-bar").click(function(){
+          $(".notification-bar").hide();
+      }); 
+    });
+
+    // Update Date Script
+    const update_date = document.getElementById('update_date');
+    update_date.innerHTML = `© ${new Date().getFullYear()}`;
+  </script>
+
   </body>
 </html>
