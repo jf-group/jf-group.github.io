@@ -10,30 +10,92 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Fontawesome 5.12.0 -->
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Title -->
     <title>JF Group | Inicio</title>
   </head>
   <body>
-    <h1>JF Group</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, expedita distinctio. Autem repellendus tempore maiores ratione illum quasi ad iste.</p>
-
-     <!-- jQuery v3.4.1 -->
+    <!-- Header -->
+    <header class="header">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary py-2">
+        <div class="container">
+          <a class="navbar-brand text-quinary" href="#">JF Group</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Sections -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Servicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contacto</a>
+              </li>
+            </ul>
+            <!-- Social Media Icons -->
+            <ul class="navbar-nav nav-flex-icons">
+              <li class="nav-item">
+                <a class="nav-link social-media-icon text-quinary" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link social-media-icon text-quinary" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link social-media-icon text-quinary" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <!-- Content -->
+       <div class="container-fluid header-text h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+          <div class="col-lg-10 align-self-end">
+            <h1 class="font-weight-bold text-quinary">JFGroup</h1>
+          </div>
+          <div class="col-lg-8 align-self-baseline">
+            <p class="mb-3 lead text-white font-weight-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur itaque voluptatibus eaque, nihil suscipit laudantium.</p>
+            <a class="btn btn-lg btn-brand" href="#">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+  
+  
+  <!-- jQuery v3.4.1 -->
   <script src="js/jquery.min.js"></script>
   <!-- Bootstrap 4.4.1 - JavaScript & Popper.js included-->
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- Custom JavaScript -->
   <script>
-    $(document).ready(function() {
-      $(".close-bar").click(function(){
-          $(".notification-bar").hide();
-      }); 
-    });
+    // $(document).ready(function() {
+    //   $(".close-bar").click(function(){
+    //       $(".notification-bar").hide();
+    //   }); 
+    // });
 
-    // Update Date Script
-    const update_date = document.getElementById('update_date');
-    update_date.innerHTML = `© ${new Date().getFullYear()}`;
+    // // Update Date Script
+    // const update_date = document.getElementById('update_date');
+    // update_date.innerHTML = `© ${new Date().getFullYear()}`;
   </script>
 
   </body>

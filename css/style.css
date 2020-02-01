@@ -1,57 +1,133 @@
-/* @font-face {
-    font-family: 'SpartanMB';
-    src: url('../webfonts/SpartanMB/SpartanMB-Thin.otf');
-    font-style: normal;
-    font-weight: 100;
+/* Color Palette */
+:root {
+
+    /* Brand Colors */
+    --primary-color: #3F3E37;
+    --secondary-color: #7F7D6E;
+    --tertiary-color: #BFBCA5;
+    --quaternary-color: #E4E1C5;
+    --quinary-color: #FFFADD;
+
+    /* Font colors */
+    --light-color: #a7a7a7 !important;
+    --dark-color: #323232 !important;
+
 }
 
-@font-face {
-    font-family: 'SpartanMB';
-    src: url('../webfonts/SpartanMB/SpartanMB-Light.otf');
-    font-style: normal;
-    font-weight: 300;
+/* Global HTML Tags */
+html{
+    font-size: 15px;
 }
 
-@font-face {
-    font-family: 'SpartanMB';
-    src: url('../webfonts/SpartanMB/SpartanMB-Regular.otf');
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'SpartanMB';
-    src: url('../webfonts/SpartanMB/SpartanMB-SemiBold.otf');
-    font-style: normal;
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: 'SpartanMB';
-    src: url('../webfonts/SpartanMB/SpartanMB-Bold.otf');
-    font-style: normal;
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'SpartanMB';
-    src: url('../webfonts/SpartanMB/SpartanMB-Extra-Bold.otf');
-    font-style: normal;
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: 'SpartanMB';
-    src: url('../webfonts/SpartanMB/SpartanMB-Black.otf');
-    font-style: normal;
-    font-weight: 900;
-}
- */
-html {
-  font-size: 1rem;
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 p{
     margin: 0 !important;
     padding: 0 !important;
+}
+
+/* CSS */
+
+.text-white{
+    color: white !important;
+}
+
+.text-light{
+    color: var(--light-color) !important;
+}
+
+.text-dark{
+    color: var(--dark-color) !important;
+}
+
+.text-primary{
+    color: var(--primary-color) !important;
+}
+
+.text-secondary{
+    color: var(--secondary-color) !important;
+}
+
+.text-tertiary{
+    color: var(--tertiary-color) !important;
+}
+
+.text-quaternary{
+    color: var(--quaternary-color) !important;
+}
+
+.text-quinary{
+    color: var(--quinary-color) !important;
+}
+
+
+.bg-primary{
+    background: var(--primary-color) !important;
+}
+
+.bg-secondary{
+    background: var(--secondary-color) !important;
+}
+
+.bg-tertiary{
+    background: var(--tertiary-color) !important;
+}
+
+.bg-quaternary{
+    background: var(--quaternary-color) !important;
+}
+
+.bg-quinary{
+    background: var(--quinary-color) !important;
+}
+
+.btn-brand{
+    background: var(--secondary-color) !important;
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(50,50,50,0.3)
+}
+
+.btn-brand:hover{
+    background: var(--tertiary-color) !important;
+}
+
+.header {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.1) 0,rgba(0, 0, 0, 0.7) 100%),url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 100vh;
+}
+
+.header-text {
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+
+/* nav.navbar {
+  background-color: transparent !important;
+} */
+
+/* .dropdown-toggle::after {
+    display: none !important;
+} */
+
+/* Bootstrap Media Queries -> md */
+@media (max-width: 767.98px) {
+
+    .nav-flex-icons {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .social-media-icon {
+        margin-right: 1.4rem;
+    }
+
 }
