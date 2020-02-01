@@ -31,6 +31,10 @@ p{
 
 /* CSS */
 
+.logo{
+    height: 140px;
+}
+
 .text-white{
     color: white !important;
 }
