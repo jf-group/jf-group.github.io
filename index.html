@@ -18,12 +18,13 @@
     <title>JF Group | Inicio</title>
   </head>
   <body>
+
     <!-- Header -->
     <header class="header">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark bg-primary py-2">
+      <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark fixed-top py-3">  <!-- navbar-dark is for hamburguer -->
         <div class="container">
-          <a class="navbar-brand text-quinary font-weight-bold" href="#">JF Group</a>
+          <a class="navbar-brand text-quaternary font-weight-bold" href="#">JF Group</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,17 +47,17 @@
             <!-- Social Media Icons -->
             <ul class="navbar-nav nav-flex-icons">
               <li class="nav-item mr-2">
-                <a class="nav-link social-media-icon text-quinary" href="#">
+                <a class="nav-link social-media-icon text-quaternary" href="#">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="nav-item mr-2">
-                <a class="nav-link social-media-icon text-quinary" href="#">
+                <a class="nav-link social-media-icon text-quaternary" href="#">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link social-media-icon text-quinary" href="#">
+                <a class="nav-link social-media-icon text-quaternary" href="#">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
@@ -64,8 +65,9 @@
           </div>
         </div>
       </nav>
-       <!-- Content -->
-       <div class="container header-text text-center">
+      <!-- End of Navbar -->
+      <!-- Content -->
+      <div class="container header-text text-center">
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-8">
             <h1 class="font-weight-bold mb-3 text-white">JF Group</h1>
@@ -74,7 +76,23 @@
           </div>
         </div>
       </div>
+      <!-- End of Content -->
     </header>
+    <!-- End of Header -->
+
+    <section class="about container py-5">
+      <h2>Nosotros</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iure sapiente est? Ipsum iste perferendis nisi amet dolorum quaerat eaque iusto et exercitationem, expedita delectus omnis vero nobis dolor cupiditate placeat nam. Tempora rem laudantium ab explicabo itaque soluta unde totam ad et, excepturi asperiores nesciunt! Nisi laboriosam praesentium sunt repellat saepe. Dolores culpa libero voluptate corporis rem id eum.</p>
+        </div>
+        <div class="col-md-5">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima iure sapiente est? Ipsum iste perferendis nisi amet dolorum quaerat eaque iusto et exercitationem, expedita delectus omnis vero nobis dolor cupiditate placeat nam. Tempora rem laudantium ab explicabo itaque soluta unde totam ad et, excepturi asperiores nesciunt! Nisi laboriosam praesentium sunt repellat saepe. Dolores culpa libero voluptate corporis rem id eum.</p>
+        </div>
+      </div>
+      
+   
+    </section>
     
   
   
@@ -84,6 +102,19 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- Custom JavaScript -->
   <script>
+  
+  $(document).ready(function() {
+    // Transition effect for navbar 
+    $(window).scroll(function() {
+      // checks if window is scrolled more than 500px, adds/removes solid class
+      if($(this).scrollTop() > 10) { 
+          $('.navbar').addClass('solid');
+      } else {
+          $('.navbar').removeClass('solid');
+      }
+    });
+  });
+
     // $(document).ready(function() {
     //   $(".close-bar").click(function(){
     //       $(".notification-bar").hide();
@@ -93,6 +124,7 @@
     // // Update Date Script
     // const update_date = document.getElementById('update_date');
     // update_date.innerHTML = `© ${new Date().getFullYear()}`;
+
   </script>
 
   </body>
