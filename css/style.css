@@ -151,3 +151,14 @@ nav.navbar.solid {
     }
 
 }
+
+.teacher {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 30px;
+    margin-bottom: 4rem;
+}
+
+.teacher img {
+    position: relative;
+    margin-top: -100px;
+}
