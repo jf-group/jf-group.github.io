@@ -67,6 +67,9 @@ p{
     color: var(--quinary-color) !important;
 }
 
+.text-decorate{
+    color: #8e793e !important;   
+}
 
 .bg-primary{
     background: var(--primary-color) !important;
