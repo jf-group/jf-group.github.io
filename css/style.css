@@ -162,3 +162,7 @@ nav.navbar.solid {
     position: relative;
     margin-top: -100px;
 }
+
+iframe{
+    border: 1px solid #ced4dA;
+}
