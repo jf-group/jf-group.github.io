@@ -166,3 +166,12 @@ nav.navbar.solid {
 iframe{
     border: 1px solid #ced4dA;
 }
+
+@media (max-width: 575.98px) {
+    .padding-sm{
+        padding: 0 2rem;
+    }
+    .text-center-sm{
+        text-align: center !important;
+    }
+}
