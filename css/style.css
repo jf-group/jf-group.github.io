@@ -131,6 +131,15 @@ nav.navbar.solid {
     font-weight: lighter;
 }
 
+/* Bootstrap Media Queries -> lg */
+@media (max-width: 991px) {
+
+    .text-center-sm{
+        text-align: center !important;
+    }
+
+}
+
 /* Bootstrap Media Queries -> md */
 @media (max-width: 767.98px) {
 
@@ -151,6 +160,12 @@ nav.navbar.solid {
     }
 
 }
+/* Bootstrap Media Queries -> sm */
+@media (max-width: 575.98px) {
+    .padding-sm{
+        padding: 0 2rem;
+    }
+}
 
 .teacher {
     border: 1px solid rgb(214, 214, 214);
@@ -167,11 +182,3 @@ iframe{
     border: 1px solid #ced4dA;
 }
 
-@media (max-width: 575.98px) {
-    .padding-sm{
-        padding: 0 2rem;
-    }
-    .text-center-sm{
-        text-align: center !important;
-    }
-}
