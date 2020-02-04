@@ -182,3 +182,31 @@ iframe{
     border: 1px solid #ced4dA;
 }
 
+.footer {
+    background: var(--primary-color) ;
+    padding: 4rem 0;
+    color: white;
+}
+
+.footer-text{
+    color: rgb(230, 230, 230);
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: var(--tertiary-color);
+}
+
+.logo{
+    height: 150px;
+}
