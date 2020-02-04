@@ -4,7 +4,7 @@
     /* Brand Colors */
     --primary-color: #3F3E37;
     --secondary-color: #7F7D6E;
-    --tertiary-color: #BFBCA5;
+    --tertiary-color: #bfbca5;
     --quaternary-color: #E4E1C5;
     --quinary-color: #FFFADD;
 
@@ -245,3 +245,8 @@ a:hover{
 .section-padding-lg{
     padding: 10rem 0;
 }
+
+.form-control:focus {
+    border-color: var(--tertiary-color) !important;
+    box-shadow: 0 0 10px rgba(191, 188, 165, 1) !important;
+  }
