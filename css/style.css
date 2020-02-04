@@ -147,7 +147,9 @@ nav.navbar.solid {
         margin-top: 3rem;
         text-align: center !important;
     }
-
+    .team-margin-md{
+        margin-bottom: 6.8rem;
+    }
 }
 
 /* Bootstrap Media Queries -> md */
@@ -169,27 +171,43 @@ nav.navbar.solid {
         transition: background-color .2s ease 0s;
     }
 
+
+
 }
 /* Bootstrap Media Queries -> sm */
 @media (max-width: 575.98px) {
     .padding-sm{
-        padding: 0 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .margin-top-sm{
         margin-top: 2rem;
     }
 }
 
-.teacher {
-    border: 1px solid rgb(214, 214, 214);
-    padding: 30px;
-    margin-bottom: 4rem;
+.about {
+    padding-top: 7rem;
 }
 
-.teacher img {
+.services {
+    padding-top: 7rem;
+}
+
+.contact {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.team {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 30px;
+}
+
+.team img {
     position: relative;
     margin-top: -100px;
 }
+
 
 iframe{
     border: 1px solid #ced4dA;
@@ -222,4 +240,8 @@ a:hover{
 
 .logo{
     height: 150px;
+}
+
+.section-padding-lg{
+    padding: 10rem 0;
 }
