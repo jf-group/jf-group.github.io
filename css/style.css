@@ -137,6 +137,16 @@ nav.navbar.solid {
     .text-center-sm{
         text-align: center !important;
     }
+    .margin-top-md{
+        margin-top: 2rem;
+    }
+    .margin-top-social{
+        margin-top: 1rem;
+    }
+    .logo-lg-centered{
+        margin-top: 3rem;
+        text-align: center !important;
+    }
 
 }
 
@@ -164,6 +174,9 @@ nav.navbar.solid {
 @media (max-width: 575.98px) {
     .padding-sm{
         padding: 0 2rem;
+    }
+    .margin-top-sm{
+        margin-top: 2rem;
     }
 }
 
