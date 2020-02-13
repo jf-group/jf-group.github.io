@@ -122,6 +122,37 @@ nav.navbar.solid {
     background-attachment: scroll;
 }
 
+.legal-header {
+    height: 100vh;
+    min-height: 700px;
+    background: url(../img/legal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.accounting-header {
+    height: 100vh;
+    min-height: 700px;
+    background: url(../img/accounting.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.architecture-header {
+    height: 100vh;
+    min-height: 700px;
+    background: url(../img/architecture.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
 
 .content-subtitle{
     font-size: 1.3rem;
