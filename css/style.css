@@ -122,10 +122,10 @@ nav.navbar.solid {
     background-attachment: scroll;
 }
 
-.legal-header {
-    height: 100vh;
-    min-height: 700px;
-    background: url(../img/accounting.png);
+.lawyer-header {
+    height: 75vh;
+    min-height: 500px;
+    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/lawyer.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,9 +133,9 @@ nav.navbar.solid {
 }
 
 .accounting-header {
-    height: 100vh;
-    min-height: 700px;
-    background: url(../img/accounting.png);
+    height: 75vh;
+    min-height: 500px;
+    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/accounting.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -143,9 +143,9 @@ nav.navbar.solid {
 }
 
 .architecture-header {
-    height: 100vh;
-    min-height: 700px;
-    background: url(../img/accounting.png);
+    height: 75vh;
+    min-height: 500px;
+    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/architecture.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
