@@ -125,7 +125,7 @@ nav.navbar.solid {
 .legal-header {
     height: 100vh;
     min-height: 700px;
-    background: url(../img/legal.png);
+    background: url(../img/accounting.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ nav.navbar.solid {
 .architecture-header {
     height: 100vh;
     min-height: 700px;
-    background: url(../img/architecture.png);
+    background: url(../img/accounting.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
