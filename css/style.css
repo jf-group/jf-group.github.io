@@ -32,7 +32,8 @@ p{
 /* CSS */
 
 .logo{
-    height: 140px;
+    height: 100px;
+    opacity: .6;
 }
 
 .text-white{
