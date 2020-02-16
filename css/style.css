@@ -8,6 +8,8 @@
     --quaternary-color: #E4E1C5;
     --quinary-color: #FFFADD;
 
+    --brand-color: #ad974f;
+
     /* Font colors */
     --light-color: #a7a7a7 !important;
     --dark-color: #323232 !important;
@@ -33,7 +35,7 @@ p{
 
 .logo{
     height: 100px;
-    opacity: .6;
+    opacity: .3;
 }
 
 .text-white{
@@ -92,6 +94,10 @@ p{
     background: var(--quinary-color) !important;
 }
 
+.bg-brand{
+    background: #ad974f !important;
+}
+
 .btn-brand{
     background: #ad974f !important;
     color: white !important;
@@ -116,17 +122,17 @@ nav.navbar.solid {
 .header {
     height: 100vh;
     min-height: 500px;
-    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/hero-image.jpg);
+    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/header/hero-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
 
-.lawyer-header {
+.legal-header {
     height: 75vh;
     min-height: 500px;
-    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/lawyer.jpg);
+    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/legal/legal-hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +142,7 @@ nav.navbar.solid {
 .accounting-header {
     height: 75vh;
     min-height: 500px;
-    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/accounting.jpg);
+    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/accounting/accounting-hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +152,7 @@ nav.navbar.solid {
 .architecture-header {
     height: 75vh;
     min-height: 500px;
-    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/architecture.jpg);
+    background: linear-gradient(to bottom,rgba(10, 10, 10, 0.6) 0,rgba(10, 10, 10, 0.8) 100%),url(../img/architecture/architecture-hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -156,6 +162,15 @@ nav.navbar.solid {
 .content-subtitle{
     font-size: 1.3rem;
     font-weight: lighter;
+}
+
+.list-group-items {
+    position: relative;
+    display: block;
+    padding: .5rem 0.9rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 3px;
 }
 
 /* Bootstrap Media Queries -> lg */
@@ -177,7 +192,16 @@ nav.navbar.solid {
     .team-margin-md{
         margin-bottom: 6.8rem;
     }
+
+    .carousel-container{
+        background-color: #ad974f !important;
+        padding: 1rem !important;
+        margin-top: 1rem;
+    }
+
 }
+
+
 
 /* Bootstrap Media Queries -> md */
 @media (max-width: 767.98px) {
@@ -222,6 +246,11 @@ nav.navbar.solid {
 }
 
 .contact {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.service-list {
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
@@ -278,3 +307,66 @@ a:hover{
     border-color: var(--tertiary-color) !important;
     box-shadow: 0 0 10px rgba(191, 188, 165, 1) !important;
   }
+
+/* CAROUSELS */
+
+/* Legal Carousel */
+.legal-carousel {
+    height: 466px;
+}
+
+.legal-carousel img {
+    min-height: 466px;
+}
+
+/* Architecture Carousel */
+.architecture-carousel {
+    height: 411px;
+}
+
+.architecture-carousel img {
+    min-height: 411px;
+}
+
+/* Accounting Carousel */
+.accounting-carousel {
+    height: 411px;
+}
+
+.accounting-carousel img {
+    min-height: 411px;
+}
+.border-brand {
+    border: 1px solid var(--brand-color);
+}
+
+/* Carousel Media Queries */
+@media (max-width: 575.98px) {
+    .carousel-item{
+        width: 100% !important;
+        height: 260px !important;
+    }
+    .carousel-item img{
+        min-height: 100px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .carousel-item{
+        width: 100% !important;
+        height: 220px !important;
+    }
+    .carousel-item img{
+        min-height: 100px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .carousel-item{
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .carousel-item img{
+        min-height: 100px !important;
+    }
+}
